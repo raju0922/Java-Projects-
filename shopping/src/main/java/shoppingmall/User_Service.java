@@ -2,8 +2,12 @@ package shoppingmall;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.transaction.Transactional;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+@Service
+@Transactional
 public class User_Service
 {
 	@Autowired

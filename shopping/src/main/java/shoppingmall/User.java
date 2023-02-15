@@ -54,6 +54,7 @@ public int getU_phno() {
 public void setU_phno(int u_phno) {
 	this.u_phno = u_phno;
 }
+@Override
 public String toString()
 {
 	return "User[User id:"+u_id+" Username:"+u_name+" Email :"+u_email+" Phoneno :"+u_phno+"]";

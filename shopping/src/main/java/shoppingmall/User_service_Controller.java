@@ -2,7 +2,7 @@ package shoppingmall;
 
 import javax.persistence.NoResultException;
 
-//import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class User_service_Controller
 {
-//@Autowired
+@Autowired
 private User_Service service;
 @GetMapping("/userservice")
 public java.util.List<User> list()
